@@ -1,0 +1,43 @@
+.calculator {
+    width: 500px;
+    height: 600px;
+    margin: 64px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    border: 2px solid black;
+    text-align: end;
+    height: 150px;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.display .text {
+    font-size: 112px;
+    text-align: end;
+    padding: 12px;
+}
+
+.input {
+    padding: 12px;
+    display: flex;
+    height: 100%;
+    gap: 16px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 16px;
+}
+
+.row {
+    flex: 1;
+}
+

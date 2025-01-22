@@ -17,7 +17,7 @@
     justify-content: end;
 }
 
-.display .text {
+#display-text {
     font-size: 112px;
     text-align: end;
     padding: 12px;
